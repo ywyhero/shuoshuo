@@ -1,0 +1,97 @@
+.register {
+    height: 100%;
+    background: url('./../../assets/images/regist.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.register_box {
+    height: 400px;
+    width: 350px;
+    transform: translateY(50%);
+    margin-left: 10%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .5);
+    padding: 20px;
+    font-weight: 200;
+}
+
+.register_box_name {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.register_username,
+.register_password {
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #fff;
+}
+
+.register_username>input,
+.register_password>input {
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    padding-left: 20px;
+    width: 200px;
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid #e5e5e5;
+}
+
+.register_username>input::-webkit-input-placeholder,
+.register_password>input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #fff;
+    font-weight: 200;
+}
+
+.register_username>input:-moz-placeholder,
+.register_password>input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    font-weight: 200;
+}
+
+.register_username>input::-moz-placeholder,
+.register_password>input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #fff;
+    font-weight: 200;
+}
+
+.register_username>input:-ms-input-placeholder,
+.register_password>input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #fff;
+    font-weight: 200;
+}
+
+.register_btn {
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    border: 1px solid #fff;
+    margin-top: 80px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.register_tips {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 5px;
+}

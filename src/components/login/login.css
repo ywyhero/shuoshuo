@@ -1,0 +1,99 @@
+.login {
+    height: 100%;
+    background: url('./../../assets/images/login_bg.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.login_box {
+    height: 400px;
+    width: 350px;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 200;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login_box_title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.login_username,
+.login_password {
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login_username>input,
+.login_password>input {
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    padding-left: 20px;
+    width: 200px;
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid #e5e5e5;
+}
+
+.login_username>input::-webkit-input-placeholder,
+.login_password>input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #fff;
+    font-weight: 200;
+}
+
+.login_username>input:-moz-placeholder,
+.login_password>input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    font-weight: 200;
+}
+
+.login_username>input::-moz-placeholder,
+.login_password>input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #fff;
+    font-weight: 200;
+}
+
+.login_username>input:-ms-input-placeholder,
+.login_password>input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #fff;
+    font-weight: 200;
+}
+
+.login_btn {
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    border: 1px solid #fff;
+    margin-top: 80px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.login_tips {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 5px;
+}

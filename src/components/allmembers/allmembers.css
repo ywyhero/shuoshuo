@@ -1,0 +1,39 @@
+.allmenbers-box-bottom {
+    margin: 20px auto 0;
+    width: 80%;
+}
+
+.allmenbers-box-bottom>ul {
+    list-style: none;
+}
+
+.allmenbers-box-bottom>ul>li {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px;
+    height: 80px;
+}
+
+.allmenbers-box-bottom-name {
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: 500;
+    color: #333;
+}
+
+.allmenbers-box-bottom-content {
+    font-size: 14px;
+}
+
+.allmenbers-box-bottom-delete {
+    color: red;
+    cursor: pointer;
+    line-height: 80px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}

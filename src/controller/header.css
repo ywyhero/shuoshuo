@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+    background: #1f1f1f;
+}
+
+.header-box {
+    width: 1200px;
+    margin: 0 auto;
+    color: #bfbfbf;
+    height: 40px;
+}
+
+.header-left-first.header-left-val {
+    font-size: 16px;
+}
+
+.header-left-val {
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+    padding: 0 20px;
+    color: #bfbfbf;
+    cursor: pointer;
+}
+
+.header-left-val:hover {
+    background: #383838;
+}
+
+.header-left-val.active {
+    background: #383838;
+}
+
+.header-right {
+    float: right;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right>img {
+    margin-right: 10px;
+}
+
+.header-right>span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 50px;
+    overflow: hidden;
+}
+
+.header-right-btn {
+    margin-left: 20px;
+    cursor: pointer;
+}

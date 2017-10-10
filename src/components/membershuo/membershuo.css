@@ -1,0 +1,38 @@
+.member-box-bottom {
+    margin: 20px auto 0;
+    width: 80%;
+}
+
+.member-box-bottom>ul {
+    list-style: none;
+}
+
+.member-box-bottom>ul>li {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px;
+}
+
+.member-box-bottom-name {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #333;
+}
+
+.member-box-bottom-content {
+    font-size: 14px;
+}
+
+.member-box-bottom-delete {
+    float: right;
+    margin-bottom: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
